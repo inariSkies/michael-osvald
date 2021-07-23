@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/michael-osvald/static/css/main.a617e044.chunk.css",
-    "main.js": "/michael-osvald/static/js/main.34b0361f.chunk.js",
-    "main.js.map": "/michael-osvald/static/js/main.34b0361f.chunk.js.map",
-    "runtime-main.js": "/michael-osvald/static/js/runtime-main.f02d67d3.js",
-    "runtime-main.js.map": "/michael-osvald/static/js/runtime-main.f02d67d3.js.map",
-    "static/js/2.2073fbb8.chunk.js": "/michael-osvald/static/js/2.2073fbb8.chunk.js",
-    "static/js/2.2073fbb8.chunk.js.map": "/michael-osvald/static/js/2.2073fbb8.chunk.js.map",
-    "static/js/3.68bd0428.chunk.js": "/michael-osvald/static/js/3.68bd0428.chunk.js",
-    "static/js/3.68bd0428.chunk.js.map": "/michael-osvald/static/js/3.68bd0428.chunk.js.map",
+    "main.css": "/michael-osvald/static/css/main.45b7a0c6.chunk.css",
+    "main.js": "/michael-osvald/static/js/main.f765287a.chunk.js",
+    "main.js.map": "/michael-osvald/static/js/main.f765287a.chunk.js.map",
+    "runtime-main.js": "/michael-osvald/static/js/runtime-main.352cfa2a.js",
+    "runtime-main.js.map": "/michael-osvald/static/js/runtime-main.352cfa2a.js.map",
+    "static/js/2.6b2c3745.chunk.js": "/michael-osvald/static/js/2.6b2c3745.chunk.js",
+    "static/js/2.6b2c3745.chunk.js.map": "/michael-osvald/static/js/2.6b2c3745.chunk.js.map",
+    "static/js/3.2c00ca11.chunk.js": "/michael-osvald/static/js/3.2c00ca11.chunk.js",
+    "static/js/3.2c00ca11.chunk.js.map": "/michael-osvald/static/js/3.2c00ca11.chunk.js.map",
     "index.html": "/michael-osvald/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/michael-osvald/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.2073fbb8.chunk.js.LICENSE.txt": "/michael-osvald/static/js/2.2073fbb8.chunk.js.LICENSE.txt",
+    "static/css/main.45b7a0c6.chunk.css.map": "/michael-osvald/static/css/main.45b7a0c6.chunk.css.map",
+    "static/js/2.6b2c3745.chunk.js.LICENSE.txt": "/michael-osvald/static/js/2.6b2c3745.chunk.js.LICENSE.txt",
     "static/media/MichaelHeadLogo.f52348f3.gif": "/michael-osvald/static/media/MichaelHeadLogo.f52348f3.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f02d67d3.js",
-    "static/js/2.2073fbb8.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.34b0361f.chunk.js"
+    "static/js/runtime-main.352cfa2a.js",
+    "static/js/2.6b2c3745.chunk.js",
+    "static/css/main.45b7a0c6.chunk.css",
+    "static/js/main.f765287a.chunk.js"
   ]
 }
