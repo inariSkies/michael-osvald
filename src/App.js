@@ -1,4 +1,4 @@
-import MichaelHeadLogo from './img/MichaelHeadLogo.gif';
+import MichaelHeadLogo from './imgs/MichaelHeadLogo.gif';
 import './App.css';
 
 function App() {
