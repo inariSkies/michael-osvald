@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/michael-osvald/static/css/main.a617e044.chunk.css",
+    "main.js": "/michael-osvald/static/js/main.e9ab62e5.chunk.js",
+    "main.js.map": "/michael-osvald/static/js/main.e9ab62e5.chunk.js.map",
+    "runtime-main.js": "/michael-osvald/static/js/runtime-main.f02d67d3.js",
+    "runtime-main.js.map": "/michael-osvald/static/js/runtime-main.f02d67d3.js.map",
+    "static/js/2.2073fbb8.chunk.js": "/michael-osvald/static/js/2.2073fbb8.chunk.js",
+    "static/js/2.2073fbb8.chunk.js.map": "/michael-osvald/static/js/2.2073fbb8.chunk.js.map",
+    "static/js/3.68bd0428.chunk.js": "/michael-osvald/static/js/3.68bd0428.chunk.js",
+    "static/js/3.68bd0428.chunk.js.map": "/michael-osvald/static/js/3.68bd0428.chunk.js.map",
+    "index.html": "/michael-osvald/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/michael-osvald/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.2073fbb8.chunk.js.LICENSE.txt": "/michael-osvald/static/js/2.2073fbb8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/michael-osvald/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f02d67d3.js",
+    "static/js/2.2073fbb8.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.e9ab62e5.chunk.js"
+  ]
+}
