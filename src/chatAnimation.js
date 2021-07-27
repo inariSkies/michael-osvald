@@ -1,6 +1,6 @@
 import React, {useState, useReducer, Fragment, useEffect} from "react";
 import { MuiThemeProvider, AppBar,Toolbar,IconButton, Card, Grid, Slide } from '@material-ui/core';
-import { CardContent, Typography } from '@material-ui/core';
+import { CardContent, Typography,Grow,Paper } from '@material-ui/core';
 import TextMessage from "./textMessage";
 const ChatAnimation = props => {
 const [timeCount, setTimeCount]=useState(0);
@@ -29,15 +29,55 @@ return (
         </Card>
       </Slide>
     </Grid>
-    <Grid container xs justifyContent="flex-end">
-      <Slide direction="up" in={timeCount>2}  timeout={500}>
-      <Card className = "Main-card2" varient="outlined" style={style}>
-        <CardContent>
-         <Typography variant="h5" color="primary">
-         hahaha um no.. 
-          </Typography>
-        </CardContent>
-      </Card>
+    <Grid container  justifyContent="flex-end" spacing={0}>
+    <Grow in={timeCount%2===0} timeout= {600} >
+         
+            <svg >
+            <circle
+        cx="50"
+        cy="50"
+        r="10"
+        fill="#FFFFF1"
+        stroke="#FFFFF1"
+        strokeWidth="2"
+      />
+            </svg>
+    
+        </Grow>
+        <Grow in={timeCount%3===0} timeout= {600}>
+         
+            <svg >
+            <circle
+        cx="50"
+        cy="55"
+        r="10"
+        fill="#FFFFF1"
+        stroke="#FFFFF1"
+        strokeWidth="2"
+      />
+          </svg>
+    
+        </Grow>
+        <Grow in={timeCount%4===0} timeout= {600} >
+         
+            <svg >
+            <circle
+        cx="50"
+        cy="55"
+        r="10"
+        fill="#FFFFF1"
+        stroke="#FFFFF1"
+        strokeWidth="2"
+      />
+            </svg>
+    
+        </Grow>
+    </Grid>
+    <Grid container justifyContent="flex-end">
+      <Slide direction="up" in={timeCount>3}  timeout={500}>
+      <Card className = "TextMessageBox" varient="outlined" style={style}>
+        <TextMessage msg="Hahaha ah not yet.."></TextMessage>
+        </Card>
       </Slide>
       </Grid>
       </CardContent>
