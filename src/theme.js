@@ -1,6 +1,6 @@
-import { createTheme } from "@material-ui/core";
+import { unstable_createMuiStrictModeTheme as createMuiTheme } from "@material-ui/core";
 import { palette } from "@material-ui/system";
-export default createTheme({
+export default createMuiTheme({
     typeography:{
         useNextVarietes:true,
         fontFamily: [
