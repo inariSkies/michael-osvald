@@ -30,7 +30,7 @@ return (
       </Slide>
     </Grid>
     <Grid container  justifyContent="flex-end" spacing={0}>
-    <Grow in={timeCount%2===0} timeout= {600} >
+    <Grow in={timeCount===2} timeout= {200} >
          
             <svg >
             <circle
@@ -44,7 +44,7 @@ return (
             </svg>
     
         </Grow>
-        <Grow in={timeCount%3===0} timeout= {600}>
+        <Grow in={timeCount===2} timeout= {400}>
          
             <svg >
             <circle
@@ -58,7 +58,51 @@ return (
           </svg>
     
         </Grow>
-        <Grow in={timeCount%4===0} timeout= {600} >
+        <Grow in={timeCount===2} timeout= {600} >
+         
+            <svg >
+            <circle
+        cx="50"
+        cy="55"
+        r="10"
+        fill="#FFFFF1"
+        stroke="#FFFFF1"
+        strokeWidth="2"
+      />
+            </svg>
+    
+        </Grow>
+    </Grid>
+    <Grid container  justifyContent="flex-end" spacing={0}>
+    <Grow in={timeCount===4} timeout= {200} >
+         
+            <svg >
+            <circle
+        cx="50"
+        cy="50"
+        r="10"
+        fill="#FFFFF1"
+        stroke="#FFFFF1"
+        strokeWidth="2"
+      />
+            </svg>
+    
+        </Grow>
+        <Grow in={timeCount===4} timeout= {400}>
+         
+            <svg >
+            <circle
+        cx="50"
+        cy="55"
+        r="10"
+        fill="#FFFFF1"
+        stroke="#FFFFF1"
+        strokeWidth="2"
+      />
+          </svg>
+    
+        </Grow>
+        <Grow in={timeCount===4} timeout= {600} >
          
             <svg >
             <circle
@@ -74,7 +118,7 @@ return (
         </Grow>
     </Grid>
     <Grid container justifyContent="flex-end">
-      <Slide direction="up" in={timeCount>3}  timeout={500}>
+      <Slide direction="up" in={timeCount>4}  timeout={500}>
       <Card className = "TextMessageBox" varient="outlined" style={style}>
         <TextMessage msg="Hahaha ah not yet.."></TextMessage>
         </Card>
