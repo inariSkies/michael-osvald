@@ -1,5 +1,5 @@
 import React, {useState, useReducer, Fragment, useEffect} from "react";
-import {  AppBar,Toolbar,IconButton, Card, Grid, Slide } from '@material-ui/core';
+import {  AppBar,Toolbar,IconButton, Card, Grid, Slide, makeStyles } from '@material-ui/core';
 import { CardContent, Typography,Grow,Paper } from '@material-ui/core';
 import TextMessage from "./textMessage";
 import ReplyTextAnimation from "./replyTextAnimation";
@@ -15,15 +15,26 @@ useEffect(()=>
 
 
 
+const cardStyle =makeStyles({
+  root:{
+  width:'85%',
+  marginTop:"2%",
+  backgroundColor:"#282f45", 
+  border: '2px solid red',
+  height:"250px"
+  },
+});
+
+const classes = cardStyle();
 
 return (
     <Fragment>
-    <Card  style={{width:"85%", marginTop:"2%",backgroundColor:"#282D34"}}>
+    <Card className={classes.root}>
     <CardContent>
     <Grid container spacing={3}>
         <TextMessage msg="Hey is your website done yet?"></TextMessage>
     </Grid>
-    <Grid container  justifyContent="flex-end" spacing={0}>
+    <Grid container  justifyContent="flex-end" flexwrap="nowrap"  spacing={0} style={{paddingRight:"10%"}}>
       {timeCount===1?ReplyTextAnimation():null}
       {timeCount===2?ReplyTextAnimation():null}
     </Grid>

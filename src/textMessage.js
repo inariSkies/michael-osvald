@@ -5,7 +5,7 @@ import { CardContent, Typography } from '@material-ui/core';
 import { BorderColor } from "@material-ui/icons";
 const TextMessage = props =>{
 
-  const style ={
+  const textstyle ={
     backgroundColor:"#222",
     width:"85%",
     margin:'10px',
@@ -15,7 +15,7 @@ const TextMessage = props =>{
 return (
     <Fragment>
        <Slide direction="up" in={true}  timeout={500}>
-        <Card className = "TextMessageBox"  varient="outlined" style={style}>
+        <Card className = "TextMessageBox"  varient="outlined" style={textstyle}>
         <CardContent>
          <Typography variant="h5" color="primary">
             {props.msg}

@@ -29,9 +29,7 @@ function App() {
       </AppBar>
  
    
-     
-      <ChatAnimation></ChatAnimation>
-    
+      <ChatAnimation/>
     </MuiThemeProvider>
    
     <img src={MichaelHeadLogo} className="App-logo" alt="logo" />

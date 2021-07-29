@@ -18,6 +18,6 @@ export default createMuiTheme({
     },
     palette:{
         primary: {main: "#AAA", contrastText: "#FFF"},
-        secondary:{main:"#44A4A4"}
+        secondary:{main:"#FFF"}
     }
 })
