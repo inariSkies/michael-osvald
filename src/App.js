@@ -14,25 +14,26 @@ function App() {
 <div className="App">
 {/*<img src={sampleImg} className="Back-Image"/>*/}
 <MuiThemeProvider theme={responsiveFontSizes(theme)}>    
-      <AppBar  style={{backgroundColor:'#222', width:'98%', marginTop:'1%', marginBottom:'1%', marginRight:'1%', position:'relative'}}>
-        <Toolbar >
-        <Typography variant="h2" color="primary" style={{flex: '1'}}>
-          || michael osvald || 
+      {/*<AppBar  style={{backgroundColor:'#222', width:'98%', marginTop:'1%', marginBottom:'1%', marginRight:'1%', position:'relative'}}>
+        <Toolbar >*/}
+        <Typography variant="h2" color="primary" style={{flex: '1', textShadow:'0 0 7px #05D9E8, 2px 5px 5px #005678', fontSize:'calc(36px + 2vmin)',  fontFamily: `'Orbitron',san-serif`}}>
+           _michaelOsvald 
         </Typography>
         
       
-        <IconButton edge="end" color="inherit" aria-label="menu" >
+       {/*  <IconButton edge="end" color="inherit" aria-label="menu" >
         <MenuIcon> </MenuIcon> 
         </IconButton>
-
+      >
         </Toolbar>
       </AppBar>
- 
+ */}
    
       <ChatAnimation/>
     </MuiThemeProvider>
    
-    <img src={MichaelHeadLogo} className="App-logo" alt="logo" />
+   {// <img src={MichaelHeadLogo} className="App-logo" alt="logo" />
+   }
     
     </div>
    
