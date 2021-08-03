@@ -4,6 +4,7 @@ export default createMuiTheme({
     typeography:{
         useNextVarietes:true,
         fontFamily: [
+            'Orbitron',
             '-apple-system',
             'BlinkMacSystemFont',
             '"Segoe UI"',
@@ -18,6 +19,7 @@ export default createMuiTheme({
     },
     palette:{
         primary: {main: "#D1F7FF", contrastText: "#FFF"},
-        secondary:{main:"#FFF"}
+        secondary:{main:"#005678"},
+        pastel:{pink:"#FFDEF2", purple:"#F2E2FF",blue:"#E2EEFF",green:"#DDFFFC",yellow:"#FFFFE3"}
     }
 })
