@@ -67,6 +67,7 @@ return (
   </Typography>
 
         <Route exact path="/" render={() => <Redirect to="/home" />} />
+        <Route exact path="/michael-osvald" render={() => <Redirect to="/home" />} />
         <Route path="/home" component={HomePage} />
         <Route path="/about" component={AboutPage} />
 

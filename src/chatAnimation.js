@@ -22,7 +22,7 @@ const cardStyle =makeStyles({
   marginTop:"2%",
   backgroundColor:'#01012B', 
   border: '2px solid #ff2a6d',
-  borderRadius:'0',
+  borderRadius:'10px',
   borderRight:'15px solid #ff2a6d',
   minHeight:"200px",
   justifyContent:'flex-end',
@@ -69,7 +69,7 @@ return (
             if (ev.key === 'Enter') {
               // Do code here
               ev.preventDefault();
-              //<TextMessage msg="TEST"  msgColor={theme.palette.primary.main}></TextMessage>
+              //TextMessage();
             }
           }}
           label=  {timeCount>3&&timeCount<7?<Typist>Hahaha ah not yet..</Typist>:null} variant="outlined" />

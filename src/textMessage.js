@@ -14,7 +14,7 @@ const TextMessage = props =>{
     border: '2px solid',
     BorderColor:`${theme.palette.primary.main}`,
    
-    borderRadius:'20px',
+    borderRadius:'5px',
   }
 
 return (
@@ -22,7 +22,7 @@ return (
        <Slide direction="up" in={true}  timeout={500}>
         <Card className = "TextMessageBox"  varient="outlined" style={textstyle}>
         <CardContent>
-         <Typography variant="h5" color="#000" style={{ fontFamily: `'Press Start 2P', cursive`}}>
+         <Typography variant="h5"  style={{fontColor:"#000", fontFamily: `'Press Start 2P', cursive`}}>
           {props.msg}
           </Typography>
         </CardContent>
