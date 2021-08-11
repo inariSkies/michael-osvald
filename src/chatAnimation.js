@@ -1,6 +1,6 @@
 import React, {useState, useReducer, Fragment, useEffect} from "react";
 import {  AppBar,Toolbar,IconButton, Card, Grid, Slide, makeStyles } from '@material-ui/core';
-import { CardContent, Typography,Grow,Paper } from '@material-ui/core';
+import { CardContent, Typography,Grow,Paper ,TextField} from '@material-ui/core';
 import theme from './theme';
 import TextMessage from "./textMessage";
 import ReplyTextAnimation from "./replyTextAnimation";
@@ -33,7 +33,7 @@ const cardStyle =makeStyles({
     marginLeft:'10%',
     marginRight:'10%',
     marginTop:'5px',
-    borderRadius:'25px',
+   // borderRadius:'25px',
     marginBottom:'5px'
    }
 });
@@ -60,9 +60,21 @@ return (
       </CardContent>
       </Card>
       <Card className={classes.bottom} varient="outlined">
-        <CardContent>
-      {timeCount>3&&timeCount<7?<Typist>Hahaha ah not yet..</Typist>:null}
-        </CardContent>
+        
+        <form  noValidate autoComplete="off">
+          <TextField id="standard" style={{width:"100%", height:"100%"}} InputProps={{
+            disabled: timeCount<7,
+          }} 
+          onKeyPress={(ev) => {
+            if (ev.key === 'Enter') {
+              // Do code here
+              ev.preventDefault();
+              //<TextMessage msg="TEST"  msgColor={theme.palette.primary.main}></TextMessage>
+            }
+          }}
+          label=  {timeCount>3&&timeCount<7?<Typist>Hahaha ah not yet..</Typist>:null} variant="outlined" />
+        </form>
+      
         </Card>
       </CardContent>
       </Card>
