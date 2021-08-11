@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState, useReducer } from "react";
 import { Route, Link, Redirect } from "react-router-dom";
 import HomePage from './home';
+import AboutPage from './about';
 import theme from './theme';
 import { MuiThemeProvider, AppBar,Toolbar,IconButton, Grid, responsiveFontSizes,Switch, Menu, MenuItem } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -28,7 +29,7 @@ return (
     <Toolbar >
     <IconButton
             onClick={handleClick}
-            color="#fff"
+            color={"primary"}
             style={{ marginLeft: "auto", paddingRight: "1vh" }}
           >
             <MenuIcon></MenuIcon>
@@ -42,14 +43,17 @@ return (
       <MenuItem component={Link} to="/home" onClick={handleClose}>
         Home
       </MenuItem>
+      <MenuItem component={Link} to="/about" onClick={handleClose}>
+        About me
+      </MenuItem>
       </Menu>
       </Toolbar>
   </AppBar>
   <Typography variant="h2" color="primary" style={{flex: '1', marginTop:'10px', textShadow:'0 0 7px #05D9E8, 2px 5px 5px #005678', fontSize:'calc(36px + 2vmin)',  fontFamily: `'Press Start 2P', cursive`}}>
     michael osvald 
   </Typography>
-  <Typography >
-    <div>
+  <Typography component={'div'}>
+
       <Grid component="label" container alignItems="center" spacing={1}>
         <Grid item>Off</Grid>
         <Grid item>
@@ -58,13 +62,13 @@ return (
         </Grid>
         <Grid item>On</Grid>
       </Grid>
-    </div>
+    
 
   </Typography>
 
         <Route exact path="/" render={() => <Redirect to="/home" />} />
         <Route path="/home" component={HomePage} />
-       
+        <Route path="/about" component={AboutPage} />
 
  
   

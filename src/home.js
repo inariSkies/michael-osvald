@@ -1,4 +1,4 @@
-import React from "react";
+import React,{Fragment} from "react";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import ChatAnimation from './chatAnimation';
 import { Card, CardContent, CardHeader, Typography } from "@material-ui/core";
